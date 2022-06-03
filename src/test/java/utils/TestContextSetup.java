@@ -8,6 +8,7 @@ public class TestContextSetup {
     public String productName, shortName;
     public PageObjectManager pageObjectManager;
     public WebDriverFactory driverFactory;
+    public ProductInformation productInformation;
     public GenericUtil util;
 
     public TestContextSetup(){

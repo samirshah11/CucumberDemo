@@ -32,6 +32,6 @@ public class GenericUtil {
         Properties properties = new Properties();
         properties.load(fileInputStream);
         System.out.println(properties.getProperty(key));
-       return properties.getProperty("url");
+       return properties.getProperty(key);
     }
 }
