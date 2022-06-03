@@ -2,8 +2,9 @@ utils\GenericUtil.class
 utils\WebDriverFactory.class
 stepDefinitions\LandingPageStepDefinition.class
 utils\TestContextSetup.class
-pageObjects\OffersPO.class
 pageObjects\PageObjectManager.class
+cucumberOptions\TestNGTestRunnerClass.class
+pageObjects\OffersPO.class
+stepDefinitions\Hook.class
 pageObjects\LandingPO.class
 stepDefinitions\OfferPageStepDefinition.class
-cucumberOptions\TestNGTestRunnerClass.class

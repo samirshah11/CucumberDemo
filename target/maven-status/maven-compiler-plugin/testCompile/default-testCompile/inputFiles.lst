@@ -1,4 +1,6 @@
 C:\Users\lenovo\IdeaProjects\BDDCucumberDemo\src\test\java\cucumberOptions\TestNGTestRunnerClass.java
+C:\Users\lenovo\IdeaProjects\BDDCucumberDemo\src\test\java\pageObjects\CartPO.java
+C:\Users\lenovo\IdeaProjects\BDDCucumberDemo\src\test\java\stepDefinitions\Hook.java
 C:\Users\lenovo\IdeaProjects\BDDCucumberDemo\src\test\java\pageObjects\OffersPO.java
 C:\Users\lenovo\IdeaProjects\BDDCucumberDemo\src\test\java\pageObjects\LandingPO.java
 C:\Users\lenovo\IdeaProjects\BDDCucumberDemo\src\test\java\utils\TestContextSetup.java
@@ -6,4 +8,5 @@ C:\Users\lenovo\IdeaProjects\BDDCucumberDemo\src\test\java\pageObjects\PageObjec
 C:\Users\lenovo\IdeaProjects\BDDCucumberDemo\src\test\java\utils\WebDriverFactory.java
 C:\Users\lenovo\IdeaProjects\BDDCucumberDemo\src\test\java\stepDefinitions\LandingPageStepDefinition.java
 C:\Users\lenovo\IdeaProjects\BDDCucumberDemo\src\test\java\utils\GenericUtil.java
+C:\Users\lenovo\IdeaProjects\BDDCucumberDemo\src\test\java\utils\ProductInformation.java
 C:\Users\lenovo\IdeaProjects\BDDCucumberDemo\src\test\java\stepDefinitions\OfferPageStepDefinition.java
