@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Iterator;
 import java.util.Properties;
 import java.util.Set;
@@ -28,7 +29,8 @@ public class GenericUtil {
     }
 
     public static String getPropertyValue(String key) throws IOException {
-        FileInputStream fileInputStream= new FileInputStream("src/test/resources/globalconfig.properties");
+        //FileInputStream fileInputStream= new FileInputStream("src/test/resources/globalconfig.properties");
+        InputStream fileInputStream = GenericUtil.class.getClassLoader().getResourceAsStream("globalconfig.properties");
         Properties properties = new Properties();
         properties.load(fileInputStream);
         System.out.println(properties.getProperty(key));
