@@ -15,7 +15,7 @@ pipeline{
 
         stage("push image to docker hub"){
             steps{
-            withCredentials([usernamePassword(credentialsId: 'amazon', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
+            withCredentials([usernamePassword(credentialsId: 'DH', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
                 bat "docker login --username=${USERNAME} --password=${PASSWORD}"
                 bat "docker push samirshh9/selenium-docker:latest"
             }
