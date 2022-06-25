@@ -15,11 +15,11 @@ pipeline{
 
         stage("push image to docker hub"){
             steps{
-                 withCredentials([usernameColonPassword(credentialsId: 'DH', usernameVariable: 'Username',passwordVariable: 'Password')]){
-                 bat "docker login --username=$Username --password=$Password"
-                 bat "docker push samirshh9/selenium-docker:latest"
-                 }
+            withCredentials([usernamePassword(credentialsId: 'amazon', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
+                bat "docker login --username=${USERNAME} --password=${PASSWORD}"
+                bat "docker push samirshh9/selenium-docker:latest"
             }
+          }
 
         }
 
