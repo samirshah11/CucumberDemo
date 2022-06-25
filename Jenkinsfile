@@ -8,7 +8,7 @@ pipeline{
          }
         stage("Building docker image"){
             steps{
-                bat "docker build -t='samirshh9/selenium-docker' ."
+                bat "docker build -t=samirshh9/selenium-docker ."
             }
 
         }
