@@ -40,4 +40,4 @@ services:
       - BROWSER=chrome
       - hubMachine=hub
     volumes:
-      - //c/Users/samir/Desktop/Artifacts:/usr/share/automation/test-output
+      - ./Artifacts:/usr/share/automation/test-output
